@@ -5,9 +5,11 @@
 }
 .header-componant {
   background-image: url(/images/banner/banner3.png);
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 400px;
+  height: 600px;
 }
 .banner {
   display: flex;
@@ -32,4 +34,66 @@
   padding: 10px;
   color: blue;
   margin-top: 20px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+  margin: 20px 60px;
+}
+.main-container img {
+  width: 300px;
+}
+.main-position {
+  margin-top: 20px;
+}
+.product-container {
+  align-items: center;
+  width: 45%;
+}
+.product-container h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.product-container p {
+  /* padding: 40px; */
+  /* margin: 120px; */
+}
+.image {
+  width: 200px;
+}
+.section-title {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: 30px;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 90px;
+}
+.footer-componant {
+  background-image: url(./images/gradient1.png), url(./images/watch.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  width: 90%;
+  margin: 50px;
+}
+.ami-ses {
+  padding: 55px;
+  color: aliceblue;
+}
+.ami-ses button {
+  padding: 10px;
+}
+.footer-containt {
+  display: flex;
+  background-color: dark;
+}
+.footer-btn {
+  margin-top: 10px;
 }
