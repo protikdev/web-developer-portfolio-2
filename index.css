@@ -92,8 +92,16 @@
 }
 .footer-containt {
   display: flex;
-  background-color: dark;
+  color: white;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 40px;
 }
 .footer-btn {
   margin-top: 10px;
+  background-color: royalblue;
+}
+.footer-container {
+  background-color: black;
 }
