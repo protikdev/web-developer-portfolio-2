@@ -98,9 +98,22 @@
   align-items: center;
   padding: 20px 40px;
 }
+.footer-containt input {
+  padding: 8px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.footer-containt input::placeholder {
+  color: white;
+}
 .footer-btn {
   margin-top: 10px;
-  background-color: royalblue;
+  background-color: #005fac;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 .footer-container {
   background-color: black;
